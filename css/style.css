@@ -22,6 +22,10 @@ body {
   border: 2px solid #ffa500;
 }
 
+.invalid-feedback {
+  color: #ffa500;
+}
+
 h1 {
   margin-bottom: 1rem;
 }
