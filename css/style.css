@@ -10,12 +10,21 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+h1 {
+  margin-bottom: 1rem;
+}
+
 .btn {
   margin-top: 1.5rem;
-  background: #ffa500;
-  color: #000;
+  background: #ffa500 !important;
+  color: #000 !important;
   border: #ffa500;
   text-transform: uppercase;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  filter: brightness(80%);
 }
 
 .form-control:focus {
@@ -24,8 +33,4 @@ body {
 
 .invalid-feedback {
   color: #ffa500;
-}
-
-h1 {
-  margin-bottom: 1rem;
 }
